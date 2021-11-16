@@ -1,6 +1,9 @@
-const Router = require('express');
+//const Router = require('express');
+import * as express from "express"
+const router = express.Router();
+
 const { verifyToken } = require('./verifyToken.router');
-const router = new Router();
+//const router = new Router();
 
 router.get('/', async (req, res) => {
     res.json({a:1})

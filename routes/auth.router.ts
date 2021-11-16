@@ -1,5 +1,8 @@
-const Router = require('express');
-const router = new Router();
+//const Router = require('express');
+//const router = new Router();
+import * as express from "express"
+const router = express.Router();
+
 const User = require('../models/User')
 const CryptoJs = require('crypto-js')
 const jwt = require('jsonwebtoken')

@@ -1,4 +1,5 @@
-const mongoose = require('mongoose');
+//const mongoose = require('mongoose');
+import * as mongoose from "mongoose"
 
 const OrderSchema = new mongoose.Schema({
     userId      : { type:String, required:true, unique:true },
